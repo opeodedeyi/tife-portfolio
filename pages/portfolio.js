@@ -1,7 +1,5 @@
 import { useEffect, Fragment } from "react";
 import Header from "../components/header/Header";
-import Image from 'next/image'
-import Link from "next/link";
 import './portfolio.css'
 
 const Portfolio = () => {

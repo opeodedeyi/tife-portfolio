@@ -1,4 +1,5 @@
 import "./Skill.css";
+import Image from 'next/image';
 
 import html from '../../assets/svg/html.svg'
 import css from '../../assets/svg/css.svg'
@@ -15,27 +16,27 @@ const Skill = () => {
     return (
         <div className="parent-container">
             <div className="tech-container">
-                <img src={html} alt="HTML" className="tech-icon" />
-                <img src={css} alt="CSS" className="tech-icon" />
-                <img src={javascript} alt="JavaScript" className="tech-icon" />
-                <img src={node} alt="NodeJS" className="tech-icon" />
-                <img src={vue} alt="Vue" className="tech-icon" />
-                <img src={nuxt} alt="Nuxt" className="tech-icon" />
-                <img src={react} alt="React" className="tech-icon" />
-                <img src={python} alt="Python" className="tech-icon" />
-                <img src={django} alt="Django" className="tech-icon" />
-                <img src={flask} alt="Flask" className="tech-icon" />
+                <Image src={html} alt="HTML" className="tech-icon" width="50" height="50" />
+                <Image src={css} alt="CSS" className="tech-icon" width="50" height="50" />
+                <Image src={javascript} alt="JavaScript" className="tech-icon" width="50" height="50" />
+                <Image src={node} alt="NodeJS" className="tech-icon" width="50" height="50" />
+                <Image src={vue} alt="Vue" className="tech-icon" width="50" height="50" />
+                <Image src={nuxt} alt="Nuxt" className="tech-icon" width="50" height="50" />
+                <Image src={react} alt="React" className="tech-icon" width="50" height="50" />
+                <Image src={python} alt="Python" className="tech-icon" width="50" height="50" />
+                <Image src={django} alt="Django" className="tech-icon" width="50" height="50" />
+                <Image src={flask} alt="Flask" className="tech-icon" width="50" height="50" />
                 {/* duplicate */}
-                <img src={html} alt="HTML" className="tech-icon" />
-                <img src={css} alt="CSS" className="tech-icon" />
-                <img src={javascript} alt="JavaScript" className="tech-icon" />
-                <img src={node} alt="NodeJS" className="tech-icon" />
-                <img src={vue} alt="Vue" className="tech-icon" />
-                <img src={nuxt} alt="Nuxt" className="tech-icon" />
-                <img src={react} alt="React" className="tech-icon" />
-                <img src={python} alt="Python" className="tech-icon" />
-                <img src={django} alt="Django" className="tech-icon" />
-                <img src={flask} alt="Flask" className="tech-icon" />
+                <Image src={html} alt="HTML" className="tech-icon" width="50" height="50" />
+                <Image src={css} alt="CSS" className="tech-icon" width="50" height="50" />
+                <Image src={javascript} alt="JavaScript" className="tech-icon" width="50" height="50" />
+                <Image src={node} alt="NodeJS" className="tech-icon" width="50" height="50" />
+                <Image src={vue} alt="Vue" className="tech-icon" width="50" height="50" />
+                <Image src={nuxt} alt="Nuxt" className="tech-icon" width="50" height="50" />
+                <Image src={react} alt="React" className="tech-icon" width="50" height="50" />
+                <Image src={python} alt="Python" className="tech-icon" width="50" height="50" />
+                <Image src={django} alt="Django" className="tech-icon" width="50" height="50" />
+                <Image src={flask} alt="Flask" className="tech-icon" width="50" height="50" />
             </div>
         </div>
     )

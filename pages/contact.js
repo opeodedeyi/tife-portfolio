@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Image from 'next/image';
 import Header from "../components/header/Header";
 import FormInput from "../components/formInput/FormInput";
 import CustomButton from "../components/custombutton/CustomButton";
@@ -83,13 +84,13 @@ const Contact = () => {
                         <p className="contact-body-subtitle">Follow me</p>
                         <div className="social-icons">
                             <a href="https://www.instagram.com/odedeyiope/" target="_blank" rel="noopener noreferrer">
-                                <img src="/instagram.svg" alt="Instagram" className="social-icon" />
+                                <Image src="/instagram.svg" alt="Instagram" className="social-icon" width="24" height="24" />
                             </a>
                             <a href="https://www.linkedin.com/in/opeyemi-odedeyi/" target="_blank" rel="noopener noreferrer">
-                                <img src="/linkedin.svg" alt="LinkedIn" className="social-icon" />
+                                <Image src="/linkedin.svg" alt="LinkedIn" className="social-icon" width="24" height="24" />
                             </a>
                             <a href="https://github.com/opeodedeyi" target="_blank" rel="noopener noreferrer">
-                                <img src="/github.svg" alt="Github" className="social-icon" />
+                                <Image src="/github.svg" alt="Github" className="social-icon" width="24" height="24" />
                             </a>
                         </div>
                     </div>

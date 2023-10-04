@@ -15,12 +15,12 @@ const Home = () => {
             <div className="background-image"></div>
             
             <div className="home-container">
-                <p className="home-container-introduction"><span className="home-container-introduction-special">I'm Boluwatife,</span> a passionate data-driven professional.</p>
+                <p className="home-container-introduction"><span className="home-container-introduction-special">I&apos;m Boluwatife,</span> a passionate data-driven professional.</p>
             </div>
 
             <div className="home-container-socials">
                 <p className="home-normal-text">Do you want to discuss or work with me?</p>
-                <Link href='/contact' className='button-normal'>Let's Talk</Link>
+                <Link href='/contact' className='button-normal'>Let&apos;s Talk</Link>
             </div>
         </Fragment>
     )

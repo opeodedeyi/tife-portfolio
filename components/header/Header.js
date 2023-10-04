@@ -32,10 +32,10 @@ const Header = () => {
                         <Link className={router.pathname == "/portfolio" ? "active" : ""} href='/portfolio' onClick={closeNav}>Portfolio</Link>
                     </li>
                     <li className='desk'>
-                        <Link href='/contact' className='button-inverse' onClick={closeNav}>Let's Talk</Link>
+                        <Link href='/contact' className='button-inverse' onClick={closeNav}>Let&apos;s Talk</Link>
                     </li>
                     <li className='mob'>
-                        <Link className={router.pathname == "/contact" ? "active" : ""} href='/contact' onClick={closeNav}>Let's Talk</Link>
+                        <Link className={router.pathname == "/contact" ? "active" : ""} href='/contact' onClick={closeNav}>Let&apos;s Talk</Link>
                     </li>
                 </ul>
             </div>
