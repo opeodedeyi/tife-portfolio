@@ -1,0 +1,49 @@
+.parent-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+}
+
+.tech-container {
+    display: inline-flex;
+    animation: scrolling 20s linear infinite;
+    white-space: nowrap;
+}
+
+.tech-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 120px;
+    /* filter: invert(1); */
+    fill: var(--special-color);
+}
+
+@keyframes scrolling {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .tech-icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and  (max-width: 768px) {
+    .tech-container {
+        animation: scrolling 10s linear infinite;
+    }
+
+    .tech-icon {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}

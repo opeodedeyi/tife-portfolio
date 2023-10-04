@@ -1,0 +1,151 @@
+.social-container {
+    position: relative;
+    display: flex;
+    margin-top: 120px;
+    width: 100%;
+    padding: 0 100px;
+    background-color: var(--background-color);
+    text-align: center;
+    justify-content: center;
+}
+
+.social-container-introduction {
+    font-size: 63px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.1;
+    position: relative;
+    z-index: 1;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.social-container-introduction-special {
+    color: var(--special-color-disabled);
+}
+
+.contact-body {
+    width: 100%;
+}
+
+.contact-body-content {
+    /* cound add a background */
+    padding: 30px 100px 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-body-content-main {
+    width: 100%;
+    flex: 1;
+    max-width: 700px;
+}
+
+.contact-body-content-socials {
+    height: 100%;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.contact-body-subtitle {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 35px;
+    color: var(--special-color-disabled);
+}
+
+.contact-body-text {
+    font-size: 18px;
+    margin-right: 40px;
+    line-height: 1.4;
+    letter-spacing: 1.3px;
+    margin-bottom: 60px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 160px; /* width of container the social media icons are */
+}
+  
+.social-icon {
+    width: 24px;
+    height: 24px;
+    filter: invert(1);
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-body-content {
+        flex-direction: column;
+    }
+
+    .contact-body-content-main {
+        margin-bottom: 60px;
+        max-width: 100%;
+    }
+
+    .contact-body-content-socials {
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-body-title {
+        font-size: 45px;
+    }
+
+    .contact-body-subtitle {
+        font-size: 32px;
+    }
+
+    .contact-body-text {
+        font-size: 16px;
+        margin-right: 0;
+    }
+}
+
+@media screen and  (max-width: 768px) {
+    .social-container {
+        margin-top: 90px;
+        padding: 0 20px;
+    }
+
+    .social-container-introduction {
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .contact-body-content {
+        padding: 30px 20px;
+        /* flex-direction: column; */
+    }
+
+    .contact-body-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .contact-body-subtitle {
+        font-size: 24px;
+    }
+
+    .contact-body-text {
+        font-size: 16px;
+        margin-right: 0;
+        line-height: 1.3;
+        margin-bottom: 40px;
+        text-justify: auto;
+    }
+
+    .contact-body-content-socials {
+        text-align: center;
+    }
+}
