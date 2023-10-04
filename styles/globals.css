@@ -83,6 +83,10 @@ a {
   display: none;
 }
 
+.skill path {
+  fill: var(--special-color);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
