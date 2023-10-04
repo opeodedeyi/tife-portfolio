@@ -19,6 +19,7 @@ const Home = () => {
             </div>
 
             <div className="home-container-socials">
+                <p className="home-container-content">A data-driven professional with a master&apos;s degree in Business Analytics. My expertise lies in utilizing data to uncover valuable insights and drive impactful business decisions. Proficient in a diverse range of tools, including Excel, Tableau, SQL, R, Python, Google Analytics, and Looker Studio, I am well-equipped to tackle complex challenges across a variety of industries.</p>
                 <p className="home-normal-text">Do you want to discuss or work with me?</p>
                 <Link href='/contact' className='button-normal'>Let&apos;s Talk</Link>
             </div>

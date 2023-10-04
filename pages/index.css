@@ -19,6 +19,16 @@
     margin-bottom: 80px;
 }
 
+.home-container-content {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.1;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
 .home-container-introduction-special {
     color: var(--special-color-disabled);
 }
@@ -38,8 +48,9 @@
 }
 
 .home-normal-text {
-    font-weight: 500;
-    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 
 .background-image {
@@ -88,6 +99,18 @@
         margin-top: 30px;
         margin-bottom: 40px;
         font-weight: 600;
+    }
+
+    .home-container-content {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .home-normal-text {
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 30px;
     }
 
     .home-container-socials {
