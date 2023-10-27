@@ -24,7 +24,7 @@ const Portfolio = () => {
                         <img src="/cust_segment.png" alt="banner Image" />
                     </div>
                     <div className="portfolio-card-content">
-                        <p className="portfolio-card-title">Excel: Customer Segmentation Analysis</p>
+                        <p className="portfolio-card-title">Customer Segmentation Analysis</p>
                         <p className="portfolio-card-subtitle">A survey was conducted among students enrolled in various nanodegree programs on an e-learning platform. By analyzing the collected data, valuable insights were gathered, empowering data-driven marketing decisions that will ultimately boost sales for the e-learning platform.</p>
                     </div>
                 </div>
