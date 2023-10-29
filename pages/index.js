@@ -15,7 +15,7 @@ const Home = () => {
             <div className="background-image"></div>
             
             <div className="home-container">
-                <p className="home-container-introduction"><span className="home-container-introduction-special">I&apos;m Boluwatife,</span> a passionate data-driven professional.</p>
+                <p className="home-container-introduction"><span className="home-container-introduction-special">I&apos;m Tife,</span> a passionate data-driven professional.</p>
             </div>
 
             <div className="home-container-socials">
