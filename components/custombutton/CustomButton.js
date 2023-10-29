@@ -1,9 +1,9 @@
 import "./CustomButton.css";
 
-const CustomButton = ( props ) => {
+const CustomButton = ({ size="default-size", onClick, disabled, children }) => {
     return (
-        <button className="custom-button" onClick={props.onClick} disabled={props.disabled}>
-            { props.children }
+        <button className={`custom-button ${size}`} onClick={onClick} disabled={disabled}>
+            { children }
         </button>
     );
 };

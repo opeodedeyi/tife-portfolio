@@ -57,6 +57,8 @@
 .portfolio-card-content {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 40px;
     gap: 20px;
 }
@@ -64,6 +66,26 @@
 .portfolio-card-title {
     font-size: 26px;
     font-weight: 500;
+}
+
+.portfolio-card-btn {
+    padding: 10px 30px;
+    flex-shrink: 1;
+    background-color: var(--special-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portfolio-card-btn:hover {
+    background-color: var(--special-color-hover);
 }
 
 @media screen and  (max-width: 768px) {

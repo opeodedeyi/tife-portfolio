@@ -3,13 +3,10 @@
     color: var(--white-color);
     padding: 12px 24px;
     border: none;
-    border-radius: 26.5px;
+    border-radius: 100px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease;
-    width: 100%;
-    max-width: 600px;
-    height: 53px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -27,9 +24,26 @@
     opacity: 0.6;
 }
 
+.default-size {
+    width: 100%;
+    max-width: 600px;
+    height: 53px;
+}
+
+.normal-size {
+    height: 53px;
+}
+
 @media screen and  (max-width: 768px) {
     .custom-button {
-        border-radius: 22px;
+        border-radius: 100px;
+    }
+
+    .default-size {
+        height: 44px;
+    }
+
+    .normal-size {
         height: 44px;
     }
 }
