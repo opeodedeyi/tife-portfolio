@@ -35,6 +35,17 @@ const Portfolio = () => {
                         <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/customer-segmentation-analysis?r=17ku7g&utm_campaign=post&utm_medium=web">Read More</Link>
                     </div>
                 </div>
+
+                <div className="portfolio-card">
+                    <div className="portfolio-card-image">
+                        <img src="/disney_screenshot.png" alt="banner Image" />
+                    </div>
+                    <div className="portfolio-card-content">
+                        <p className="portfolio-card-title">Sales Performance Analysis</p>
+                        <p className="portfolio-card-subtitle">I analysed sales data using Microsoft Power BI to identify key product categories and store profitability, offering insights for Disney Toys' expansion strategy.</p>
+                        <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/sales-performance-analysis">Read More</Link>
+                    </div>
+                </div>
             </div>
         </Fragment>
     )
