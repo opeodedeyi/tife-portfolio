@@ -42,7 +42,7 @@ const Portfolio = () => {
                     </div>
                     <div className="portfolio-card-content">
                         <p className="portfolio-card-title">Sales Performance Analysis</p>
-                        <p className="portfolio-card-subtitle">I analysed sales data using Microsoft Power BI to identify key product categories and store profitability, offering insights for Disney Toys' expansion strategy.</p>
+                        <p className="portfolio-card-subtitle">I analysed sales data using Microsoft Power BI to identify key product categories and store profitability, offering insights for Disney Toys&apos; expansion strategy.</p>
                         <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/sales-performance-analysis">Read More</Link>
                     </div>
                 </div>
