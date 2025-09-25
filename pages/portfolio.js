@@ -24,26 +24,38 @@ const Portfolio = () => {
 
             <Skill />
 
-            <div className="portfolio-myworks">
-                <div className="portfolio-card">
-                    <div className="portfolio-card-image">
-                        <img src="/cust_segment.png" alt="banner Image" />
-                    </div>
-                    <div className="portfolio-card-content">
-                        <p className="portfolio-card-title">Customer Segmentation Analysis</p>
-                        <p className="portfolio-card-subtitle">A survey was conducted among students enrolled in various nanodegree programs on an e-learning platform. By analyzing the collected data, valuable insights were gathered, empowering data-driven marketing decisions that will ultimately boost sales for the e-learning platform.</p>
-                        <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/customer-segmentation-analysis?r=17ku7g&utm_campaign=post&utm_medium=web">Read More</Link>
+            <div className="portfolio-projects-section">
+                <div className="portfolio-category">
+                    <h2 className="portfolio-category-heading">Data Science Projects</h2>
+                    <div className="portfolio-myworks">
+                        <div className="portfolio-card">
+                            <div className="portfolio-card-image">
+                                <img src="/cust_segment.png" alt="banner Image" />
+                            </div>
+                            <div className="portfolio-card-content">
+                                <p className="portfolio-card-title">Customer Segmentation Analysis</p>
+                                <p className="portfolio-card-subtitle">A survey was conducted among students enrolled in various nanodegree programs on an e-learning platform. By analyzing the collected data, valuable insights were gathered, empowering data-driven marketing decisions that will ultimately boost sales for the e-learning platform.</p>
+                                <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/customer-segmentation-analysis?r=17ku7g&utm_campaign=post&utm_medium=web">Read More</Link>
+                            </div>
+                        </div>
+                        {/* Add more Data Science project cards here */}
                     </div>
                 </div>
 
-                <div className="portfolio-card">
-                    <div className="portfolio-card-image">
-                        <img src="/disney_screenshot.png" alt="banner Image" />
-                    </div>
-                    <div className="portfolio-card-content">
-                        <p className="portfolio-card-title">Sales Performance Analysis</p>
-                        <p className="portfolio-card-subtitle">I analysed sales data using Microsoft Power BI to identify key product categories and store profitability, offering insights for Disney Toys&apos; expansion strategy.</p>
-                        <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/sales-performance-analysis">Read More</Link>
+                <div className="portfolio-category">
+                    <h2 className="portfolio-category-heading">Data Analytics Projects</h2>
+                    <div className="portfolio-myworks">
+                        <div className="portfolio-card">
+                            <div className="portfolio-card-image">
+                                <img src="/disney_screenshot.png" alt="banner Image" />
+                            </div>
+                            <div className="portfolio-card-content">
+                                <p className="portfolio-card-title">Sales Performance Analysis</p>
+                                <p className="portfolio-card-subtitle">I analysed sales data using Microsoft Power BI to identify key product categories and store profitability, offering insights for Disney Toys&apos; expansion strategy.</p>
+                                <Link className="portfolio-card-btn" target="_blank" href="https://boluwatifeoluwaseun.substack.com/p/sales-performance-analysis">Read More</Link>
+                            </div>
+                        </div>
+                        {/* Add more Data Analytics project cards here */}
                     </div>
                 </div>
             </div>
