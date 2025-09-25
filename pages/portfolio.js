@@ -169,7 +169,7 @@ const Portfolio = () => {
                                     Analyzed sales data to uncover product
                                     category trends and store profitability.
                                     Delivered insights through interactive Power
-                                    BI dashboards to support Disney Toys'
+                                    BI dashboards to support Disney Toys&apos;
                                     expansion strategy.
                                 </p>
                                 <Link
