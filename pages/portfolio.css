@@ -108,6 +108,29 @@
     background-color: var(--special-color-hover);
 }
 
+.portfolio-card-techstack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.tech-badge {
+    background-color: #e8f0fe;
+    color: #1967d2;
+    padding: 6px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid #dadce0;
+    transition: all 0.2s ease;
+}
+
+.tech-badge:hover {
+    background-color: #d2e3fc;
+    transform: translateY(-1px);
+}
+
 @media screen and  (max-width: 768px) {
     .portfolio-container {
         margin-top: 90px;
@@ -178,5 +201,15 @@
         font-style: normal;
         font-weight: 400;
         line-height: 157.7%;
+    }
+
+    .portfolio-card-techstack {
+        gap: 6px;
+        margin-top: 5px;
+    }
+
+    .tech-badge {
+        font-size: 11px;
+        padding: 5px 10px;
     }
 }

@@ -53,6 +53,15 @@ const Portfolio = () => {
                                     score, loan purpose, and home ownership to
                                     guide smarter lending decisions.
                                 </p>
+                                <div className="portfolio-card-techstack">
+                                    <span className="tech-badge">Python</span>
+                                    <span className="tech-badge">Pandas</span>
+                                    <span className="tech-badge">NumPy</span>
+                                    <span className="tech-badge">Scikit-learn</span>
+                                    <span className="tech-badge">XGBoost</span>
+                                    <span className="tech-badge">Matplotlib</span>
+                                    <span className="tech-badge">Seaborn</span>
+                                </div>
                                 <Link
                                     className="portfolio-card-btn"
                                     target="_blank"
@@ -82,6 +91,13 @@ const Portfolio = () => {
                                     marketing efficiency and boost conversion
                                     rates.
                                 </p>
+                                <div className="portfolio-card-techstack">
+                                    <span className="tech-badge">Python</span>
+                                    <span className="tech-badge">Pandas</span>
+                                    <span className="tech-badge">Scikit-learn</span>
+                                    <span className="tech-badge">Matplotlib</span>
+                                    <span className="tech-badge">Seaborn</span>
+                                </div>
                                 <Link
                                     className="portfolio-card-btn"
                                     target="_blank"
@@ -110,6 +126,15 @@ const Portfolio = () => {
                                     activity, and product usage to enable
                                     proactive retention strategies.
                                 </p>
+                                <div className="portfolio-card-techstack">
+                                    <span className="tech-badge">Python</span>
+                                    <span className="tech-badge">Pandas</span>
+                                    <span className="tech-badge">NumPy</span>
+                                    <span className="tech-badge">TensorFlow/Keras</span>
+                                    <span className="tech-badge">Scikit-learn</span>
+                                    <span className="tech-badge">SHAP</span>
+                                    <span className="tech-badge">Matplotlib</span>
+                                </div>
                                 <Link
                                     className="portfolio-card-btn"
                                     target="_blank"
@@ -145,6 +170,12 @@ const Portfolio = () => {
                                     customer segments to inform data-driven
                                     marketing strategies and boost course sales.
                                 </p>
+                                <div className="portfolio-card-techstack">
+                                    <span className="tech-badge">Microsoft Excel</span>
+                                    <span className="tech-badge">Pivot Tables</span>
+                                    <span className="tech-badge">Charts</span>
+                                    <span className="tech-badge">Data Cleaning</span>
+                                </div>
                                 <Link
                                     className="portfolio-card-btn"
                                     target="_blank"
@@ -172,6 +203,10 @@ const Portfolio = () => {
                                     BI dashboards to support Disney Toys&apos;
                                     expansion strategy.
                                 </p>
+                                <div className="portfolio-card-techstack">
+                                    <span className="tech-badge">Microsoft Power BI</span>
+                                    <span className="tech-badge">SQL</span>
+                                </div>
                                 <Link
                                     className="portfolio-card-btn"
                                     target="_blank"
