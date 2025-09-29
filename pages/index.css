@@ -23,10 +23,10 @@
     font-size: 24px;
     font-weight: 400;
     text-align: center;
-    line-height: 1.1;
+    line-height: 1.4;
     position: relative;
     z-index: 1;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .home-container-introduction-special {
@@ -102,9 +102,10 @@
     }
 
     .home-container-content {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
-        margin-bottom: 30px;
+        line-height: 1.5;
+        margin-bottom: 25px;
     }
 
     .home-normal-text {
